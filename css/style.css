@@ -1,3 +1,89 @@
 
 
 /* lola */
+
+
+/* .NADINE */
+
+#bodyHome{
+    background-color: grey;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.headerHome{
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.barra{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+.barra li{
+    margin: 10px;
+    padding: 10px;
+    background-color: beige;
+   
+}
+.barra li a {
+    text-decoration: none;
+    color:black;
+    
+}
+.buscador{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo{
+
+    width: 10%;
+    height: 10%;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: column;
+width:100%;
+margin: 0%;
+padding: 10px;
+   
+
+}
+.peliculas{
+    display: flex;
+}
+
+h2{
+    padding: 20px;
+    text-align: left;
+}
+
+.peli1{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   width: 400px;
+   gap:20%
+}
+
+.laballena{
+    width: 75%;
+}
+footer{
+    background-color: beige;
+    width: auto;
+    text-align: center;
+    padding: 20px;
+}

@@ -6,30 +6,36 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
-<body>
+<body id="bodyHome">
    <!-- header -->
+
    <header> 
- 
+ <section class="headerHome">
     <!-- logo -->
      
-    <img src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456" alt="Logo">
+    <img class="logo" src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456" alt="Logo">
     <!-- busqueda -->
+ <!-- barra de navegacion -->
+ <nav> 
+  <ul class="barra"> 
+      <li> <a href="./detallepelicula.html">HOME </a></li> 
+      <li> <a href="#"> PELICULAS </a></li>
+      <li> <a href="#"> SERIES </a></li>
+      <li> <a href="#"> GENERO </a></li>
+  </ul>
+</nav>
 
-    <div> 
-        <textarea name="Busqueda" id="#" cols="30" rows="10"> BUSQUEDA</textarea>
+    <div class="buscador"> 
+        <form action="./resultados.html" method="get">
+          <input type="text" name="" placeholder="Buscar..." required>
+          <button type="submit">Buscar</button>
+        </form>
+        
     </div>
 
-    <!-- barra de navegacion -->
-     <nav> 
-        <ul class="barra"> 
-            <li a href="#">HOME</li>
-            <li a href="#"> PELICULAS</li>
-            <li a href="#"> SERIES</li>
-            <li a href="#"> GENERO</li>
-        </ul>
-     </nav>
+   
 
-
+    </section>
 </header>
 
 
@@ -37,19 +43,107 @@
 <main> 
 
     <!-- PELICULA 1 -->
-    <section> 
-        <article> 
-            <h2> PELICULAS POPULARES</h2>
+    <h2> PELICULAS POPULARES</h2> 
+    <section class="contenedor"> 
+       
+            <article class="peli1"> 
+               
+                <img class="laballena" src="./img/laballena.jpeg" alt="ballena">
+                <h3> La ballena</h3>
+                <p> Fecha de estreno: 18 de octubre</p>
+              </article>
 
-        
+
+              <article class="peli1"> 
             
+                <img class="laballena" src="./img/laballena.jpeg" alt="ballena">
+                <h3> La ballena</h3>
+                <p> Fecha de estreno: 18 de octubre</p>
+              </article>
 
-        </article>
+              <article class="peli1"> 
+            
+                <img class="laballena" src="./img/laballena.jpeg" alt="ballena">
+                <h3> La ballena</h3>
+                <p> Fecha de estreno: 18 de octubre</p>
+              </article>
+
+
+              <article class="peli1"> 
+            
+                <img class="laballena" src="./img/laballena.jpeg" alt="ballena">
+                <h3> La ballena</h3>
+                <p> Fecha de estreno: 18 de octubre</p>
+              </article>
+
+              <article class="peli1"> 
+            
+                <img class="laballena" src="./img/laballena.jpeg" alt="ballena">
+                <h3> La ballena</h3>
+                <p> Fecha de estreno: 18 de octubre</p>
+              </article>
+
+    </section>
+
+     <!-- PELICULA POPULARES 2 -->
+    <h2> PELICULAS POPULARES</h2> 
+    <section class="contenedor"> 
+       
+            <article class="peli1"> 
+               
+                <img class="laballena" src="./img/laballena.jpeg" alt="ballena">
+                <h3> La ballena</h3>
+                <p> Fecha de estreno: 18 de octubre</p>
+              </article>
+
+
+              <article class="peli1"> 
+            
+                <img class="laballena" src="./img/laballena.jpeg" alt="ballena">
+                <h3> La ballena</h3>
+                <p> Fecha de estreno: 18 de octubre</p>
+              </article>
+
+              <article class="peli1"> 
+            
+                <img class="laballena" src="./img/laballena.jpeg" alt="ballena">
+                <h3> La ballena</h3>
+                <p> Fecha de estreno: 18 de octubre</p>
+              </article>
+
+
+              <article class="peli1"> 
+            
+                <img class="laballena" src="./img/laballena.jpeg" alt="ballena">
+                <h3> La ballena</h3>
+                <p> Fecha de estreno: 18 de octubre</p>
+              </article>
+
+              <article class="peli1"> 
+            
+                <img class="laballena" src="./img/laballena.jpeg" alt="ballena">
+                <h3> La ballena</h3>
+                <p> Fecha de estreno: 18 de octubre</p>
+              </article>
+
     </section>
 </main>
 
 <!-- Footer -->
 <footer>
+    <div class="footercontenedor">
+        <p> Integrantes: Nadine Ruiz y Lola Cadoche</p>
 
-</footer></body>
+    <nav> 
+        <ul class="barra"> 
+            <li> <a href="#">TERMINOS Y CONDICIONES </a></li> 
+            <li> <a href="#"> INFORMACION </a></li>
+            <li> <a href="#"> LEGAL</a></li>
+            <li> <a href="#"> CONTACTO </a></li>
+        </ul>
+     </nav>
+    </div>
+</footer>
+
+</body>
 </html>
