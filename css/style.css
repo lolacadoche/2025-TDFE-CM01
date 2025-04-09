@@ -1,17 +1,4 @@
 
-<<<<<<< HEAD
-=======
-*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-}
-/* lola.. */
-
-
-/* .NADINE */
-
->>>>>>> 2bba9b4b41a4bbb51fb88f25e5fb5c835b334521
 #bodyHome{
     background-color: grey;
     padding: 0%;
@@ -29,8 +16,8 @@
 }
 
 button{
-    border-radius:50%;
-    background-color: rgba(255, 0, 0, 0.729);
+    border-radius:60%;
+    background-color: rgba(197, 191, 191, 0.729);
 }
 
 .barra{
@@ -175,4 +162,31 @@ text-align: center;
 .caja img{
     width: 100%;
     height: 350px;
+}
+
+.login{
+    justify-content: center;
+    text-align: center;
+    margin: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.registro{
+    justify-content: center;
+    text-align: center;
+    margin: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.hija{
+    margin: 1%;
+}
+
+
+
+@media  (max-width: 450px) {
+    justify-content: ;
+    flex-direction: ;
 }
