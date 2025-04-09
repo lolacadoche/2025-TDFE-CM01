@@ -1,11 +1,6 @@
 
-<<<<<<< HEAD
-#bodyHome{
-    background-color: grey;
-=======
 body{
     background-color:rgba(174, 174, 168, 0.868);
->>>>>>> 662f7cf8a77a45f719a0f1cab76e007688e826b9
     padding: 0%;
     margin: 0%;
     font-family: 'Courier New', Courier, monospace;
@@ -136,11 +131,14 @@ margin-left: 41%;
     height:20%;
 }
 .detalle li{
-    text-align: center;
+text-align: center;
     list-style: none;
 }
 .detalle h1{
 text-align: center;
+}
+.detalle p{
+    text-align: center;
 }
 
 .terror{
@@ -150,6 +148,7 @@ text-align: center;
     margin: 0%;
     padding: 10px;
 }
+
 
 .tituloterror{
     text-align: center;
@@ -191,8 +190,9 @@ text-align: center;
 }
 
 
-
-@media  (max-width: 450px) {
-    justify-content: ;
-    flex-direction: ;
+@media  (max-width: 450px){
+   .peli1{
+    flex-direction:column;
+    align-items: center;
+}
 }
