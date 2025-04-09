@@ -1,19 +1,6 @@
 
-<<<<<<< HEAD
-=======
-*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-}
-/* lola.. */
-
-
-/* .NADINE */
-
->>>>>>> 2bba9b4b41a4bbb51fb88f25e5fb5c835b334521
-#bodyHome{
-    background-color: grey;
+body{
+    background-color:rgba(174, 174, 168, 0.868);
     padding: 0%;
     margin: 0%;
     font-family: 'Courier New', Courier, monospace;
@@ -25,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
    
 }
 
@@ -124,7 +112,7 @@ footer{
     list-style: none;
     margin: 10px;
     padding: 10px;
-    background-color: rgb(187, 187, 148);
+    background-color: rgb(107, 106, 104);
     text-align: center;
 }
 
