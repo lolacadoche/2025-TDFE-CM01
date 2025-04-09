@@ -7,38 +7,40 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="bodydetalle">
-     <!-- header -->
+<!-- header -->
 
    <header> 
-    <section class="headerHome">
-       <!-- logo -->
+ <section class="headerHome">
+    <!-- logo -->
+     
+    <img class="logo" src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456" alt="Logo">
+    <!-- busqueda -->
+ <!-- barra de navegacion -->
+ <nav> 
+  <ul class="barra"> 
+      <li> <a href="./index.html">HOME </a></li> 
+      <li> <a href="./detallepelicula.html"> PELICULAS </a></li>
+      <li> <a href="./detalleserie.html"> SERIES </a></li>
+      <li> <a href="./moviegenres.html"> GENERO PELICULA </a></li>
+      <li> <a href="./detallegenero.html"> GENERO SERIE </a></li>
+  </ul>
+</nav>
+
+    <div class="buscador"> 
+        <form action="./resultados.html" method="get">
+          <input type="text" name="" placeholder="Buscar..." required>
+          <button type="submit">Buscar</button>
+        </form>
         
-       <img class="logo" src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456" alt="Logo">
-       <!-- busqueda -->
-    <!-- barra de navegacion -->
-    <nav> 
-     <ul class="barra"> 
-         <li> <a href="./detallepelicula.html">HOME </a></li> 
-         <li> <a href="#"> PELICULAS </a></li>
-         <li> <a href="#"> SERIES </a></li>
-         <li> <a href="#"> GENERO </a></li>
-     </ul>
-   </nav>
-   
-       <div class="buscador"> 
-           <form action="./resultados.html" method="get">
-             <input type="text" name="" placeholder="Buscar..." required>
-             <button type="submit">Buscar</button>
-           </form>
-           
-       </div>
-   
-       </section>
-   </header>
+    </div>
+
+    </section>
+</header>
+
     <main>
-        <section class="sectiondetalle">
+        <section class="detalle">
             <article>
-                <img src="img peliculas/laballena.jpeg" alt="">
+                <img class= "imgdetalles"src="img peliculas/laballena.jpeg" alt="">
                 <h1>La Ballena</h1>
                 <ul>
                     <li>★★★☆☆</li>
