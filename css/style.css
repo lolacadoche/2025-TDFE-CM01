@@ -1,19 +1,13 @@
-<<<<<<< HEAD
-
-*{
-    padding: 0%;
-    margin: 0%;
-=======
 * {
     padding:0px;
     margin:0px;
->>>>>>> 83a92f10590454dddbf88f99be042f2649443f2e
     box-sizing: border-box;
 }
 body{
     background-color:rgba(174, 174, 168, 0.868);
     padding: 0%;
     margin: 0%;
+    height: 100vh;
     font-family: 'Courier New', Courier, monospace;
     
 }
@@ -22,11 +16,7 @@ body{
     background-color: #000000;
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
-    align-items: center;
-=======
     align-items: center;   
->>>>>>> 83a92f10590454dddbf88f99be042f2649443f2e
 }
 
 button{
@@ -84,6 +74,14 @@ h2{
 h3{
     text-decoration: none;
 }
+main{
+    min-height: 70vh;
+}
+
+.mainResultados{
+    min-height: 90vh;
+}
+
 
 .peli1{
    display:flex;
@@ -114,9 +112,13 @@ h3{
 
 footer{
     background-color: beige;
-    width: auto;
     text-align: center;
     padding: 20px;
+    margin-bottom: 0;
+}
+
+.footercontenedor{
+    margin-bottom: 0;
 }
 
 
@@ -129,7 +131,6 @@ footer{
 }
 .genero h1{
     margin:30px;
-    align-items: center;
 }
 .genero li{ 
     list-style: none;
@@ -205,6 +206,7 @@ text-align: center;
     justify-content: center;
     text-align: center;
     margin: 5%;
+    margin-top: 20%;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
 }
@@ -213,6 +215,7 @@ text-align: center;
     justify-content: center;
     text-align: center;
     margin: 5%;
+    margin-top: 20%;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
 }
@@ -221,7 +224,6 @@ text-align: center;
     margin: 1%;
 }
 
-<<<<<<< HEAD
 @media (max-width:420px) {
     .logo{
         width: 210px;
@@ -265,8 +267,4 @@ text-align: center;
     }
    
 }
-=======
-main{
-    min-height:70vh;
-}
->>>>>>> 83a92f10590454dddbf88f99be042f2649443f2e
+
