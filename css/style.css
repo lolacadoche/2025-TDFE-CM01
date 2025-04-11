@@ -7,6 +7,7 @@ body{
     background-color:rgba(174, 174, 168, 0.868);
     padding: 0%;
     margin: 0%;
+    height: 100vh;
     font-family: 'Courier New', Courier, monospace;
     
 }
@@ -73,6 +74,14 @@ h2{
 h3{
     text-decoration: none;
 }
+main{
+    min-height: 70vh;
+}
+
+.mainResultados{
+    min-height: 90vh;
+}
+
 
 .peli1{
    display:flex;
@@ -103,9 +112,13 @@ h3{
 
 footer{
     background-color: beige;
-    width: auto;
     text-align: center;
     padding: 20px;
+    margin-bottom: 0;
+}
+
+.footercontenedor{
+    margin-bottom: 0;
 }
 
 
@@ -118,7 +131,6 @@ footer{
 }
 .genero h1{
     margin:30px;
-    align-items: center;
 }
 .genero li{ 
     list-style: none;
@@ -194,6 +206,7 @@ text-align: center;
     justify-content: center;
     text-align: center;
     margin: 5%;
+    margin-top: 20%;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
 }
@@ -202,6 +215,7 @@ text-align: center;
     justify-content: center;
     text-align: center;
     margin: 5%;
+    margin-top: 20%;
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
 }
@@ -252,3 +266,4 @@ text-align: center;
     }
    
 }
+
