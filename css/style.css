@@ -89,7 +89,6 @@ main{
    align-items: center;
    text-align: center;
    width: 400px;
-   gap:0;
    padding:10px;
    flex-wrap: wrap;
 }
@@ -193,7 +192,7 @@ footer{
     align-items: center;
     text-align: center;
     width: 400px;
-    gap:0;
+
     padding: 10px;
 }
 
