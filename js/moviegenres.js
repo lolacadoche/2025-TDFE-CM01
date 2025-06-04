@@ -11,7 +11,7 @@ fetch (url)
 
   for(let i = 0; i <data.genres.length; i++){
     ul.innerHTML += `
-   <li><a href="./detallegenero.html?id=${data.genres[i].id}&nombre=${data.genres[i].name}"> ${data.genres[i].name}</a></li>
+   <li><a href="./detallegenero.html?id=${data.genres[i].id}&nombre=${data.genres[i].name}&tipo=pelicula"> ${data.genres[i].name}</a></li>
       `
   }
 })

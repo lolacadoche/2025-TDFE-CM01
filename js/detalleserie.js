@@ -15,7 +15,7 @@ fetch(URL)
 
     let generos = ""
     for (let i=0; i< results.genres.length; i++){
-    generos += `<a href="detallegenero.html?id=${results.genres[i].id}&nombre=${results.genres[i].name}"> ${results.genres[i].name}</a> `
+    generos += `<a href="detallegenero.html?id=${results.genres[i].id}&nombre=${results.genres[i].name}&tipo=serie"> ${results.genres[i].name}</a> `
     }
     article.innerHTML = `
 

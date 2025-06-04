@@ -4,9 +4,9 @@ let id = queryStringObj.get("id");
 console.log(id);
 
 let article = document.querySelector(".detalle");
-let URL = `https://api.themoviedb.org/3/movie/${id}?api_key=cd21534ccf3ef8b078f7ac273cdf32ca`
+let url = `https://api.themoviedb.org/3/movie/${id}?api_key=cd21534ccf3ef8b078f7ac273cdf32ca`
 
-fetch(URL)
+fetch(url)
 .then(function(response) {
     return response.json();
 })
@@ -15,7 +15,7 @@ fetch(URL)
 
     let generos = ""
     for (let i=0; i< results.genres.length; i++){
-    generos += `<a href="detallegenero.html?id=${results.genres[i].id}&nombre=${results.genres[i].name}"> ${results.genres[i].name}</a> `
+    generos += `<a href="detallegenero.html?id=${results.genres[i].id}&nombre=${results.genres[i].name}&tipo=pelicula"> ${results.genres[i].name}</a> `
     }
     article.innerHTML = `
      <article>

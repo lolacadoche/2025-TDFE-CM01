@@ -175,10 +175,11 @@ footer{
 
 .terror{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width:100%;
     margin: 0%;
     padding: 10px;
+    justify-content: center;
 }
 
 
