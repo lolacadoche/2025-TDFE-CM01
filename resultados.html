@@ -1,127 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <!-- header -->
 
-    <header> 
-      <section class="headerHome">
-         <!-- logo -->
-          
-         <img class="logo" src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456" alt="Logo">
-         <!-- busqueda -->
-      <!-- barra de navegacion -->
-      <nav> 
-       <ul class="barra"> 
-           <li> <a href="./index.html">HOME </a></li> 
-           <li> <a href="./moviegenres.html"> GENERO PELICULA </a></li>
-           <li> <a href="./seriesgenres.html"> GENERO SERIE </a></li>
-       </ul>
-     </nav>
-     
-         <div class="buscador"> 
-             <form action="./resultados.html" method="get">
-               <input type="text" name="buscador" placeholder="Buscar..." value="" required>
-               <label for="tipo" style="color: white;">Película</label>
-               <input type='radio' name="tipo" value="pelicula">
-               <label for="tipo" style="color: white;">Serie</label>
-               <input type='radio' name="tipo" value="serie">
-               <button type="submit">Buscar</button>
-             </form>
-             
-         </div>
-     
-         <!-- Login registro -->
-          <div> 
-           <a href="./login.html" style="text-decoration: none; color: white;">Login |</a>
-       
-           <a href="./registro.html" style="text-decoration: none; color:white">Register</a>
-          </div>
-     
-         </section>
-     </header>
-       
-   
+    <header>
+        <section class="headerHome">
+            <!-- logo -->
+
+            <img class="logo"
+                src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=700&h=456"
+                alt="Logo">
+            <!-- busqueda -->
+            <!-- barra de navegacion -->
+            <nav>
+                <ul class="barra">
+                    <li> <a href="./index.html">HOME </a></li>
+                    <li> <a href="./moviegenres.html"> GENERO PELICULA </a></li>
+                    <li> <a href="./seriesgenres.html"> GENERO SERIE </a></li>
+                </ul>
+            </nav>
+
+            <div class="buscador">
+                <form action="./resultados.html" method="get">
+                    <input type="text" name="buscador" placeholder="Buscar..." value="" required>
+                    <label for="tipo" style="color: white;">Película</label>
+                    <input type='radio' name="tipo" value="pelicula">
+                    <label for="tipo" style="color: white;">Serie</label>
+                    <input type='radio' name="tipo" value="serie">
+                    <button type="submit">Buscar</button>
+                </form>
+
+            </div>
+
+            <!-- Login registro -->
+            <div>
+                <a href="./login.html" style="text-decoration: none; color: white;">Login |</a>
+
+                <a href="./registro.html" style="text-decoration: none; color:white">Register</a>
+            </div>
+
+        </section>
+    </header>
+
+
     <main class="mainResultados">
-<!-- PELICULA POPULARES 2 -->
-<h2> SERIES POPULARES</h2> 
-<section class="contenedor"> 
 
-        <article class="peli1"> 
-           
-            <img class="laballena" src="./img series/gossipgirl.jpeg" alt="gossipgirl">
-            <h3> Gossip Girl</h3>
-            <p> Fecha de estreno: 18 de octubre</p>
-            <nav> 
-              <ul> 
-                <li class="ver"> <a href="./detalleserie.html"> VER MAS </a></li>
-              </ul>
-            </nav>
-          </article>
+        <section class="contenedor">
 
+            <img src="https://i.gifer.com/WMDx.gif" alt="" srcset="">
+               
 
-          <article class="peli1"> 
-        
-            <img class="laballena" src="./img series/adolecencia.jpg" alt="adolecencia">
-            <h3>Adolecencia</h3>
-            <p> Fecha de estreno: 18 de octubre</p>
-            <nav> 
-              <ul> 
-                <li class="ver"> <a href="./detalleserie.html"> VER MAS </a></li>
-              </ul>
-            </nav>
-          </article>
-
-          <article class="peli1"> 
-        
-            <img class="laballena" src="./img series/Agente nocturno.jpg" alt="Agente nocturno">
-            <h3> Agente nocturno</h3>
-            <p> Fecha de estreno: 18 de octubre</p>
-            <nav> 
-              <ul> 
-                <li class="ver"> <a href="./detalleserie.html"> VER MAS </a></li>
-              </ul>
-            </nav>
-          </article>
-
-
-          <article class="peli1"> 
-        
-            <img class="laballena" src="./img series/Fullerhouse.jpg" alt="Fullerhouse">
-            <h3> Fullerhouse</h3>
-            <p> Fecha de estreno: 18 de octubre</p>
-            <nav> 
-              <ul> 
-                <li class="ver"> <a href="./detalleserie.html"> VER MAS </a></li>
-              </ul>
-            </nav>
-          </article>
-
-          <article class="peli1"> 
-        
-            <img class="laballena" src="./img series/game-of-thrones.jpeg" alt="GOT">
-            <h3> Game of thrones</h3>
-            <p> Fecha de estreno: 18 de octubre</p>
-            <nav> 
-              <ul> 
-                <li class="ver"> <a href="./detalleserie.html"> VER MAS </a></li>
-              </ul>
-            </nav>
-          </article>
-
-</section>
+        </section>
     </main>
-<!-- Footer -->
-<footer>
-  <div>
-      <p> Integrantes: Nadine Ruiz y Lola Cadoche</p>
-  </div>
-</footer>
-<script src="./js/resultados.js"></script>
+    <!-- Footer -->
+    <footer>
+        <div>
+            <p> Integrantes: Nadine Ruiz y Lola Cadoche</p>
+        </div>
+    </footer>
+    <script src="./js/resultados.js"></script>
 </body>
+
 </html>

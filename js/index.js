@@ -11,7 +11,7 @@ fetch (url)
 .then(function(data){
   console.log(data);
 
-  for(let i = 0; i < 5; i++){
+  for(let i = 0; i < 8; i++){
     sections[0].innerHTML += `
     <article class="peli1">     
     <img class="laballena" src= "https://image.tmdb.org/t/p/w500/${data.results[i].poster_path}" alt="Movie Poster">  
@@ -39,7 +39,7 @@ fetch (url1)
 .then(function(data){
   console.log(data);
 
-  for(let i = 0; i < 5; i++){
+  for(let i = 0; i < 8; i++){
     sections[1].innerHTML += `
     <article class="peli1">     
     <img class="laballena" src= "https://image.tmdb.org/t/p/w500/${data.results[i].poster_path}" alt="Movie Poster">  
@@ -66,7 +66,7 @@ fetch (url1)
 .then(function(data){
   console.log(data);
 
-  for(let i = 0; i < 5; i++){
+  for(let i = 0; i < 8; i++){
     sections[2].innerHTML += `
     <article class="peli1">     
     <img class="laballena" src= "https://image.tmdb.org/t/p/w500/${data.results[i].poster_path}" alt="Movie Poster">  
